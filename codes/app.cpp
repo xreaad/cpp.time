@@ -2,7 +2,12 @@
 
 using namespace std;
 
+int sum(int a, int b) {
+    return a + b;
+}
+
 int main() {
-    // code ...
+    cout << sum(1, 1);
+    cout << endl;
     return 0;
 }
